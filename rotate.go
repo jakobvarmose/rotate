@@ -87,6 +87,6 @@ func main() {
 		if err != nil {
 			fmt.Println(err)
 		}
-		time.Sleep(time.Hour)
+		time.Sleep(24*time.Hour)
 	}
 }
